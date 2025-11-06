@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio List</title>
+    <link rel="stylesheet" href="audioList.css" />
+  </head>
+  <body>
+    <h1>My Audio List</h1>
+
+    <table class="audio-table">
+      <thead>
+        <tr>
+          <th>Cover</th>
+          <th>Title</th>
+          <th>Artist</th>
+          <th>Year</th>
+          <th>Play</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="AudioFiles/Goodbye_Yellow_Brick_Road.jpg"
+              alt="Cover 1"
+              class="cover-img"
+            />
+          </td>
+          <td>Goodbye Yellow Brick Road</td>
+          <td>Elton John</td>
+          <td>1973</td>
+          <td>
+            <audio controls>
+              <source
+                src="AudioFiles/GoodbyeYellowBrickRoad.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td>
+            <a href="AudioFiles/GoodbyeYellowBrickRoad.mp3" download
+              >Download</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="AudioFiles/In_the_Air_Tonight_by_Phil_Collins.png"
+              alt="Cover 2"
+              class="cover-img"
+            />
+          </td>
+          <td>In The Air Tonight</td>
+          <td>phil Collins</td>
+          <td>1981</td>
+          <td>
+            <audio controls>
+              <source src="AudioFiles/InTheAirTonight.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td>
+            <a href="AudioFiles/InTheAirTonight.mp3" download>Download</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="AudioFiles/Dire_Straits_-_Sultans_Of_Swing_picture_cover.jpg"
+              alt="Cover 2"
+              class="cover-img"
+            />
+          </td>
+          <td>Sultans Of Swing</td>
+          <td>Dire Straits</td>
+          <td>1977</td>
+          <td>
+            <audio controls>
+              <source src="AudioFiles/SultansOfSwing.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td><a href="AudioFiles/SultansOfSwing.mp3" download>Download</a></td>
+        </tr>
+        <!-- Repeat rows as needed -->
+      </tbody>
+    </table>
+  </body>
+</html>

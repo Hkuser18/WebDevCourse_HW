@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.audio-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.audio-table th,
+.audio-table td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.audio-table thead th {
+  background-color: #333; /* dark gray */
+  color: #fff; /* white text */
+  font-weight: bold;
+}
+
+.cover-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
