@@ -50,3 +50,20 @@ img {
     border-radius: 6px;
     /* optional: rounded corners */
 }
+
+.link-press {
+  color: blue;          /* normal color */
+  text-decoration: none;
+}
+
+.link-press:visited {
+  color: purple;        /* optional: color after being visited */
+}
+
+.link-press:hover {
+  color: darkblue;      /* when hovering */
+}
+
+.link-press:active {
+  color: red;           /* while being pressed */
+}
