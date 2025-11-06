@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <table class="tg" style="text-align: center">
+      <tr>
+        <th class="tg-baqh" colspan="2">Send A Message</th>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Name:</td>
+        <td class="tg-0lax"><input type="text" name="name" /></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Email:</td>
+        <td class="tg-0lax"><input type="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Phone:</td>
+        <td class="tg-0lax"><input type="tel" name="phone" /></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Subject:</td>
+        <td class="tg-0lax"><input type="text" name="subject" /></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Message:</td>
+        <td class="tg-0lax">
+          <textarea name="message" rows="4" cols="30"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="tg-0lax" style="text-align: center">
+          <button type="button" id="sendBtn">Send Message</button>
+        </td>
+      </tr>
+    </table>
+
+    <script>
+      // Select the button
+      const sendBtn = document.getElementById("sendBtn");
+
+      // Add click event
+      sendBtn.addEventListener("click", function () {
+        alert("Your message has been sent!");
+      });
+    </script>
+  </body>
+</html>
